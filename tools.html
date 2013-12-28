@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="Allfiles.css" rel="stylesheet" type="text/css" />
+</head>
+<style type="text/css">
+
+body{
+    margin:5px auto;
+}
+.guide {
+	margin:20px;
+	width:345px;
+	border-style:double;
+	border-color:#F00;
+}
+.pic{
+	margin:0 auto;
+	position:absolute;
+	left:763px;
+	top:51px;
+	width: 202px;
+	height: 99px;
+}
+.main table {
+}
+</style>
+<body>
+<div class="main">
+<h1>Mathematica 常用命令</h1>
+<div class="guide">
+  <p><em>[由于Mathematica的命令实在是太多了，所以这里只列出它作为“高数神器”时所要用的命令]</em></p>
+</div>
+ <h3>1&nbsp;&nbsp;Mathematica 内部常数</h3>
+ <table border="1">
+   <tr >
+     <td width="536" valign="center" ><p >       Pi&nbsp;,&nbsp;或&nbsp;&#960;(从基本输入工具栏输入,&nbsp;或&#8220;Esc&#8221;+&#8220;p&#8221;+&#8220;Esc&#8221;） </p></td>
+     <td width="156" valign="center" ><p >圆周率&nbsp;&#960; </p></td>
+   </tr>
+   <tr >
+     <td width="536" valign="center" ><p >E&nbsp;(从基本输入工具栏输入,&nbsp;或&#8220;Esc&#8221;+&#8220;ee&#8221;+&#8220;Esc&#8221;） </p></td>
+     <td width="156" valign="center" ><p >自然对数的底数e </p></td>
+   </tr>
+   <tr >
+     <td width="536" valign="center" ><p >I&nbsp;(从基本输入工具栏输入,&nbsp;或&#8220;Esc&#8221;+&#8220;ii&#8221;+&#8220;Esc&#8221;） </p></td>
+     <td width="156" valign="center" ><p >虚数单位i </p></td>
+   </tr>
+   <tr >
+     <td width="536" valign="center" ><p >Infinity,&nbsp;或&nbsp;&#8734;(从基本输入工具栏输入&nbsp;,&nbsp;或&#8220;Esc&#8221;+&#8220;inf&#8221;+&#8220;Esc&#8221;） </p></td>
+     <td width="156" valign="center" ><p >无穷大&#160;&#8734;&nbsp; </p></td>
+   </tr>
+   <tr >
+     <td width="536" valign="center" ><p >Degree&nbsp;或&#176;(从基本输入工具栏输入,或&#8220;Esc&#8221;+&#8220;deg&#8221;+&#8220;Esc&#8221;） </p></td>
+     <td width="156" valign="center" ><p >度 </p></td>
+   </tr>
+ </table>
+ <p>&nbsp;</p>
+ <h3>2&nbsp;&nbsp;Mathematica 常用数学函数</h3>
+ <p>注意前面大写啊，亲~</p>
+ <table border="1" >
+   <tr >
+     <td width="100" valign="center" ><p ><br />
+       指数函数 </p></td>
+     <td width="159" valign="center" ><p >Exp[x] </p></td>
+     <td width="423" valign="center" ><p >以e为底数 </p></td>
+   </tr>
+   <tr >
+     <td width="100" valign="center" rowspan="2" ><p >对数函数 </p></td>
+     <td width="159" valign="center" ><p >Log[x] </p></td>
+     <td width="423" valign="center" ><p >自然对数，即以e为底数的对数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >Log[a，x] </p></td>
+     <td width="423" valign="center" ><p >以a为底数的x的对数 </p></td>
+   </tr>
+   <tr >
+     <td width="100" valign="center" ><p >开方函数 </p></td>
+     <td width="159" valign="center" ><p >Sqrt[x] </p></td>
+     <td width="423" valign="center" ><p >表示x的算术平方根 </p></td>
+   </tr>
+   <tr >
+     <td width="100" valign="center" ><p >绝对值函数 </p></td>
+     <td width="159" valign="center" ><p >Abs[x] </p></td>
+     <td width="423" valign="center" ><p >表示x的绝对值 </p></td>
+   </tr>
+   <tr >
+     <td width="100" valign="center" rowspan="6" ><p >三角函数 </p>
+       <p >（自变量的单位为弧度） </p></td>
+     <td width="159" valign="center" ><p >Sin[x] </p></td>
+     <td width="423" valign="center" ><p >正弦函数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >Cos[x] </p></td>
+     <td width="423" valign="center" ><p >余弦函数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >Tan[x] </p></td>
+     <td width="423" valign="center" ><p >正切函数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >Cot[x] </p></td>
+     <td width="423" valign="center" ><p >余切函数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >Sec[x] </p></td>
+     <td width="423" valign="center" ><p >正割函数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >Csc[x] </p></td>
+     <td width="423" valign="center" ><p >余割函数 </p></td>
+   </tr>
+   <tr >
+     <td width="100" valign="center" rowspan="6" ><p >反三角函数 </p></td>
+     <td width="159" valign="center" ><p >ArcSin[x] </p></td>
+     <td width="423" valign="center" ><p >反正弦函数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >ArcCos[x] </p></td>
+     <td width="423" valign="center" ><p >反余弦函数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >ArcTan[x] </p></td>
+     <td width="423" valign="center" ><p >反正切函数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >ArcCot[x] </p></td>
+     <td width="423" valign="center" ><p >反余切函数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >ArcSec[x] </p></td>
+     <td width="423" valign="center" ><p >反正割函数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >ArcCsc[x] </p></td>
+     <td width="423" valign="center" ><p >反余割函数 </p></td>
+   </tr>
+   <tr >
+     <td width="100" valign="center" ><p >求角度函数 </p></td>
+     <td width="159" valign="center" ><p >ArcTan[x，y] </p></td>
+     <td width="423" valign="center" ><p >以坐标原点为顶点，x轴正半轴为始边，从原点到点（x，y）的射线为终边的角，其单位为弧度 </p></td>
+   </tr>
+   <tr >
+     <td width="100" valign="center" rowspan="5" ><p >分数与浮点数运算函数 </p></td>
+     <td width="159" valign="center" ><p >N[num]或num//N </p></td>
+     <td width="423" valign="center" ><p >把精确数num化成浮点数（默认16位有效数字） </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >N[num，n] </p></td>
+     <td width="423" valign="center" ><p >把精确数num化成具有n个有效数字的浮点数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >NumberForm[num，n] </p></td>
+     <td width="423" valign="center" ><p >以n个有效数字表示num </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >Rationalize[float] </p></td>
+     <td width="423" valign="center" ><p >将浮点数float转换成与其相等的分数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >Rationalize[float，dx] </p></td>
+     <td width="423" valign="center" ><p >将浮点数float转换成与其近似相等的分数，误差小于dx </p></td>
+   </tr>
+   <tr >
+     <td width="100" valign="center" rowspan="2" ><p >最大、最小函数 </p></td>
+     <td width="159" valign="center" ><p >Max[a，b，c，．．．] </p></td>
+     <td width="423" valign="center" ><p >求最大数 </p></td>
+   </tr>
+   <tr >
+     <td width="159" valign="center" ><p >Min[a，b，c，．．．] </p></td>
+     <td width="423" valign="center" ><p >求最小数 </p></td>
+   </tr>
+ </table>
+ <p>&nbsp;</p>
+ <h3>3&nbsp;&nbsp;Mathematica 微积分</h3>
+ <table width="701" border="1" >
+   <tr>
+     <td width="384"><p>D[f, x] </p></td>
+     <td width="311"><p>求f[x]的微分 </p></td>
+   </tr>
+   <tr>
+     <td><p>D[f, {x, n}] </p></td>
+     <td><p>求f[x]的n阶微分 </p></td>
+   </tr>
+   <tr>
+     <td><p>D[f,x1,x2..] </p></td>
+     <td><p> 求f[x]对x1,x2...偏微分 </p></td>
+   </tr>
+   <tr>
+     <td><p>Dt[f, x] </p></td>
+     <td><p>求f[x]的全微分df/dx </p></td>
+   </tr>
+   <tr>
+     <td><p>Dt[f] </p></td>
+     <td><p>求f[x]的全微分df </p></td>
+   </tr>
+   <tr>
+     <td><p>Dt[f, {x, n}] </p></td>
+     <td><p> 求n阶全微分df^n/dx^n </p></td>
+   </tr>
+   <tr>
+     <td><p>Dt[f,x1,x2..] </p></td>
+     <td><p> 对x1,x2..的偏微分 </p></td>
+   </tr>
+   <tr>
+     <td><p>Integrate[f, x] </p></td>
+     <td><p>f[x]对x在的不定积分 </p></td>
+   </tr>
+   <tr>
+     <td><p>Integrate[f, {x, xmin, xmax}] </p></td>
+     <td><p> f[x]对x在区间(xmin,xmax)的定积分 </p></td>
+   </tr>
+   <tr>
+     <td><p>Integrate[f, {x, xmin, xmax}, {y, ymin, ymax}] </p></td>
+     <td><p> f[x,y]的二重积分 </p></td>
+   </tr>
+   <tr>
+     <td><p>Limit[expr, x-&gt;x0] </p></td>
+     <td><p>x趋近于x0时expr的极限 </p></td>
+   </tr>
+   <tr>
+     <td><p>Residue[expr, {x,x0}] </p></td>
+     <td><p> expr在x0处的留数 </p></td>
+   </tr>
+   <tr>
+     <td><p>Series[f, {x, x0, n}] </p></td>
+     <td><p> 给出f[x]在x0处的幂级数展开 </p></td>
+   </tr>
+   <tr>
+     <td><p>Series[f, {x, x0,nx}, {y, y0, ny}] </p></td>
+     <td><p>先对y幂级数展开，再对x展开 </p></td>
+   </tr>
+   <tr>
+     <td><p>Normal[expr] </p></td>
+     <td><p>化简并给出最常见的表达式 </p></td>
+   </tr>
+   <tr>
+     <td><p>SeriesCoefficient[series, n] </p></td>
+     <td><p>给出级数中第n次项的系数 </p></td>
+   </tr>
+   <tr>
+     <td><p>SeriesCoefficient[series, {n1,n2...}] (或Derivative[n1,n2...]) </p></td>
+     <td><p>[f] 一阶导数 </p></td>
+   </tr>
+   <tr>
+     <td><p>InverseSeries[s, x] </p></td>
+     <td><p>给出逆函数的级数 </p></td>
+   </tr>
+   <tr>
+     <td><p>ComposeSeries[serie1,serie2...] </p></td>
+     <td><p>给出两个基数的组合 </p></td>
+   </tr>
+   <tr>
+     <td><p>SeriesData[x,x0,{a0,a1,..},nmin,nmax,den] </p></td>
+     <td><p>表示一个在x0处x的幂级数，其中a<sub>i</sub>为系数 </p></td>
+   </tr>
+   <tr>
+     <td><p>O[x]^n </p></td>
+     <td><p> n阶小量x^n </p></td>
+   </tr>
+   <tr>
+     <td><p>O[x, x0]^n </p></td>
+     <td><p> n阶小量(x-x0)^n </p></td>
+   </tr>
+    <tr>
+     <td><p>FindRoot[lhs==rhs, {x,x0}]</p></td>
+     <td><p>以x0为初值，寻找方程数值解 </p></td>
+   </tr>
+   <tr>
+     <td><p>NSum[f, {i,imin,imax,di}]</p></td>
+     <td><p>数值求和，di为步长 </p></td>
+   </tr>
+   <tr>
+     <td><p>NSum[f, {i,imin,imax,di}, {j,..},..]</p></td>
+     <td><p>多维函数求和 </p></td>
+   </tr>
+   <tr>
+     <td><p>NProduct[f, {i, imin, imax, di}]</p></td>
+     <td><p>函数求积</p></td>
+   </tr>
+     <tr>
+     <td><p>NIntegrate[f, {x, xmin, xmax}]</p></td>
+     <td><p>函数数值积分 </p></td>
+   </tr>
+  </table>
+ <p><br />
+ </p>
+</div>
+
+</body>
+</html>

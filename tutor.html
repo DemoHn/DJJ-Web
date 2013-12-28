@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="Allfiles.css" rel="stylesheet" type="text/css"/>
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+</head>
+<style type="text/css">
+hr{
+	color:#000;
+}
+body{
+    margin:5px auto;
+}
+.guide {
+	margin:20px;
+	width:345px;
+	border-style:double;
+	border-color:#F00;
+}
+.pic{
+	margin:0 auto;
+	position:absolute;
+	left:763px;
+	top:51px;
+	width: 202px;
+	height: 99px;
+}
+.main table {
+}
+</style>
+<script type="text/javascript">
+function success(){
+	alert("提交成功！");	
+}
+</script>
+<body>
+<div class="main">
+<h1>Mathematica 基础教程</h1>
+
+<div id="TabbedPanels1" class="TabbedPanels">
+  <ul class="TabbedPanelsTabGroup">
+    <li class="TabbedPanelsTab" tabindex="0">视频教程</li>
+    <li class="TabbedPanelsTab" tabindex="0">基础操作</li>
+    <li class="TabbedPanelsTab" tabindex="0">微积分</li>
+  </ul>
+  <div class="TabbedPanelsContentGroup">
+    <div class="TabbedPanelsContent">
+          <p>Mathematica's Manipulate Command</p>
+      <p>
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="400" height="300" id="FLVPlayer">
+          <param name="movie" value="FLVPlayer_Progressive.swf" />
+          <param name="quality" value="high" />
+          <param name="wmode" value="opaque" />
+          <param name="scale" value="noscale" />
+          <param name="salign" value="lt" />
+          <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_2&amp;streamName=videos/MMC&amp;autoPlay=true&amp;autoRewind=false" />
+          <param name="swfversion" value="8,0,0,0" />
+          <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+          <param name="expressinstall" value="Scripts/expressInstall.swf" />
+          <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+          <!--[if !IE]>-->
+          <object type="application/x-shockwave-flash" data="FLVPlayer_Progressive.swf" width="400" height="300">
+            <!--<![endif]-->
+            <param name="quality" value="high" />
+            <param name="wmode" value="opaque" />
+            <param name="scale" value="noscale" />
+            <param name="salign" value="lt" />
+            <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_2&amp;streamName=videos/MMC&amp;autoPlay=true&amp;autoRewind=false" />
+            <param name="swfversion" value="8,0,0,0" />
+            <param name="expressinstall" value="Scripts/expressInstall.swf" />
+            <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+            <!--[if !IE]>-->
+          </object>
+          <!--<![endif]-->
+        </object>
+      </p>
+    </div>
+    <div class="TabbedPanelsContent"><img src="pictures/tutor.jpg" width="672" height="3966" /></div>
+    
+    
+    
+    <div class="TabbedPanelsContent">
+      <h4>How&nbsp;to&nbsp;|&nbsp;Compute&nbsp;a&nbsp;Limit </h4>
+      <p>Even&nbsp;simple-looking&nbsp;limits&nbsp;are&nbsp;sometimes&nbsp;quite&nbsp;complicated&nbsp;to&nbsp;compute.&nbsp;Mathematica&nbsp;provides&nbsp;functionality&nbsp;to&nbsp;evaluate&nbsp;several&nbsp;kinds&nbsp;of&nbsp;limits. </p>
+      <p>Use&nbsp;Limit&nbsp;to&nbsp;calculate&nbsp;limits;&nbsp;the&nbsp;first&nbsp;argument&nbsp;is&nbsp;the&nbsp;function&nbsp;and&nbsp;the&nbsp;second&nbsp;has&nbsp;the&nbsp;form&nbsp;<img src="pictures/tutor_wps_clip_image-22049.png" alt="" width="105" height="17" />.&nbsp;You&nbsp;can&nbsp;expect&nbsp;that&nbsp;<img src="pictures/tutor_wps_clip_image-15611.png" alt="" width="118" height="16" />: </p>
+      <table >
+        <tr>
+          <td width="54" valign="center" ><p>In[1]:= <img src="pictures/I_2.gif" /></p></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td width="60" valign="center" ><p>Out[1]= </p></td>
+          <td width="21" valign="center" ><p><img src="pictures/tutor_wps_clip_image-9289.png" alt="" width="8" height="16" /></p></td>
+        </tr>
+      </table>
+      <p>You&nbsp;may&nbsp;want&nbsp;to&nbsp;calculate&nbsp;limits&nbsp;from&nbsp;the&nbsp;right&nbsp;or&nbsp;left.&nbsp;For&nbsp;example,&nbsp;although&nbsp;<img src="pictures/tutor_wps_clip_image-23485.png" alt="" width="47" height="26" />&nbsp;is&nbsp;not&nbsp;well&nbsp;defined,&nbsp;Mathematica&nbsp;defaults&nbsp;to&nbsp;limits&nbsp;from&nbsp;the&nbsp;right: </p>
+      <table>
+        <tr>
+          <td width="54" valign="center" ><p>In[2]:= </p></td>
+          <td width="130" valign="center" ><p><img src="pictures/tutor_wps_clip_image-27256.png" alt="" width="117" height="17" /></p></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td width="60" valign="center" colspan="2" ><p>Out[2]= </p></td>
+          <td width="22" valign="center"><p><img src="pictures/tutor_wps_clip_image-26482.png" alt="" width="9" height="16" /></p></td>
+        </tr>
+        <tr>
+          <td width="54" valign="center"><p>In[3]:= </p></td>
+          <td width="236" valign="center" colspan="3"><p><img src="pictures/tutor_wps_clip_image-23477.png" alt="" width="223" height="17" /></p></td>
+        </tr>
+      </table>
+      <table >
+        <tr>
+          <td width="60" valign="center" ><p >Out[3]= </p></td>
+          <td width="22" valign="center" ><p ><img src="pictures/tutor_wps_clip_image-18757.png" alt="" width="9" height="16" /></p></td>
+        </tr>
+      </table>
+      To&nbsp;force&nbsp;the&nbsp;limit&nbsp;to&nbsp;be&nbsp;from&nbsp;the&nbsp;left,&nbsp;use&nbsp;Direction-&gt;1: </p>
+      <table>
+        <tr>
+          <td width="54" valign="center" ><p >In[4]:= </p></td>
+          <td width="228" valign="center" ><p ><img src="pictures/tutor_wps_clip_image-15803.png" alt="" width="215" height="17" /></p></td>
+        </tr>
+      </table>
+      <table >
+        <tr>
+          <td width="60" valign="center" ><p >Out[4]= </p></td>
+          <td width="30" valign="center" ><p ><img src="pictures/tutor_wps_clip_image-5212.png" alt="" width="17" height="16" /></p></td>
+        </tr>
+      </table>
+      <p>If&nbsp;you&nbsp;know&nbsp;something&nbsp;about&nbsp;a&nbsp;parameter&nbsp;in&nbsp;a&nbsp;limit,&nbsp;use&nbsp;the&nbsp;Assumptions&nbsp;option&nbsp;to&nbsp;include&nbsp;this&nbsp;information. </p>
+      <p>Suppose&nbsp;you&nbsp;want&nbsp;to&nbsp;calculate&nbsp;<img src="pictures/tutor_wps_clip_image-29212.png" alt="" width="54" height="16" />.&nbsp;Without&nbsp;knowing&nbsp;more,&nbsp;the&nbsp;limit&nbsp;cannot&nbsp;be&nbsp;calculated: </p>
+      <table >
+        <tr>
+          <td width="54" valign="center" >In[5]:=</td>
+          <td width="177" valign="center" ><p ><img src="pictures/tutor_wps_clip_image-31454.png" alt="" width="164" height="17" /></p></td>
+        </tr>
+      </table>
+      <table >
+        <tr>
+          <td width="60" valign="center" ><p >Out[5]= </p></td>
+          <td width="119" valign="center" ><p ><img src="pictures/tutor_wps_clip_image-26052.png" alt="" width="106" height="19" /></p></td>
+        </tr>
+      </table>
+      <p >If,&nbsp;however,&nbsp;you&nbsp;know&nbsp;that&nbsp; ,&nbsp;then&nbsp;you&nbsp;can&nbsp;compute&nbsp;the&nbsp;answer: </p>
+      <table>
+        <tr>
+          <td width="54" valign="center" ><p>In[6]:= </p></td>
+          <td width="334" valign="center" ><img src="pictures/tutor_wps_clip_image-5116.png" alt="" width="321" height="17" /></td>
+        </tr>
+      </table>
+      <table >
+        <tr>
+          <td width="60" valign="center" ><p >Out[6]= </p></td>
+          <td width="21" valign="center" ><p ><img src="pictures/tutor_wps_clip_image-329.png" alt="" width="8" height="16" /></p></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<div>
+  <h3>评论</h3>
+  <form id="form1" name="form1" method="post" action="">
+  <p>您的昵称：  <input type="text" size="20" /></p>
+  <p>请在这里发表您对这个教程的评论：</p>
+    <label for="textfield"></label>
+    <label for="textarea"></label>
+    <textarea name="textarea" id="textarea" cols="50" rows="10" ></textarea>
+    <p>看看有没有犯困：<br />14+53=? <input name="" type="text" size="10" /><br \>
+ <input type="submit" name="button" id="button" value="提交" onclick="success()" /></p></form></div>
+</div>
+<script type="text/javascript">
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+swfobject.registerObject("FLVPlayer");
+</script>
+</body>
+</html>
